@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <fragment
+            android:id="@+id/fragmentbanner"
+            android:name="com.nghiatbp_toanum.musicapp.Fragment.BannerFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <fragment
+            android:id="@+id/fragmentplaylist"
+            android:name="com.nghiatbp_toanum.musicapp.Fragment.PlayListFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <fragment
+            android:id="@+id/fragmentchudevatheloai"
+            android:name="com.nghiatbp_toanum.musicapp.Fragment.ChuDeTheLoaiFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <fragment
+            android:id="@+id/fragmentalbum"
+            android:name="com.nghiatbp_toanum.musicapp.Fragment.AlbumHotFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <fragment
+            android:id="@+id/fragmentbaihat"
+            android:name="com.nghiatbp_toanum.musicapp.Fragment.BaiHatHotFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>
